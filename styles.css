@@ -1,13 +1,22 @@
+body {
+    margin: 10px 40px;
+}
+
 #etch-a-sketch {
-    width: 800px;
+    width: 600px;
 }
 
 .etched {
-    background-color: black !important;
+    background-color: rgb(0, 0, 0) !important;
+    border: none !important;
 }
 
 button {
     margin-bottom: 10px;
     padding: 5px 10px;
-    font-size: 18px;
+}
+
+.etch-square {
+  border: 0.2px solid #dcdcdc;
+  box-sizing: border-box;
 }
