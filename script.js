@@ -22,7 +22,7 @@ function createGrid(gridSize) {
 
   const squareSize = containerSize / gridSize;
   for (let i = 0; i < gridSize * gridSize; i++) {
-    const squareDiv = createSquareDiv(squareSize, "lightgrey");
+    const squareDiv = createSquareDiv(squareSize, "white");
     container.appendChild(squareDiv);
   }
 }
