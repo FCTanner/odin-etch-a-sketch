@@ -1,0 +1,7 @@
+#etch-a-sketch {
+    width: 800px;
+}
+
+.etched {
+    background-color: black !important;
+}
